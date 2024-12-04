@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sn"
+version = "0.1.0"
+description = ""
+authors = ["liadidentifire <liad@identi-fire.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.10.2"
+mypy = "^1.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
