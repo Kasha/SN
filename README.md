@@ -20,7 +20,8 @@ To set up the project locally, follow these steps (CLI, Bash, Terminal, ZSH):
    `poetry shell` 
 
 4. Install [Poetry](https://python-poetry.org/) for managing dependencies:  
-   `pip install poetry`
+   `pip install poetry` - If poetry isn't installed
    
-   `poetry install`
-6. Execute main.py
+   `poetry install` - Install lib and dependencies 
+5. Usage 
+python main.py
